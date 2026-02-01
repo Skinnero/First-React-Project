@@ -1,0 +1,22 @@
+@import '../../styles/settings.scss';
+
+.nav {
+  display: flex;
+  background-color: darken($color-dark, 3%);
+
+  a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.nav > :last-child {
+  margin-right: 5%;
+  display: flex;
+  gap: 20px;
+}
+.nav > :first-child {
+  margin-left: 5%;
+}
+
