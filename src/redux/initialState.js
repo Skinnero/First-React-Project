@@ -40,14 +40,14 @@ const initialState = {
   ],
 
   cards: [
-    { id: '1', columnId: '1', title: 'This is Going to Hurt' },
-    { id: '2', columnId: '1', title: 'Interpreter of Maladies' },
-    { id: '3', columnId: '2', title: 'Harry Potter' },
-    { id: '4', columnId: '2', title: 'Star Wars' },
-    { id: '5', columnId: '3', title: 'The Witcher' },
-    { id: '6', columnId: '3', title: 'Skyrim' },
-    { id: '7', columnId: '4', title: 'Daylight' },
-    { id: '8', columnId: '4', title: 'Bad Apple' }
+    { id: '1', columnId: '1', title: 'This is Going to Hurt', isFavorite: false },
+    { id: '2', columnId: '1', title: 'Interpreter of Maladies', isFavorite: false },
+    { id: '3', columnId: '2', title: 'Harry Potter', isFavorite: false },
+    { id: '4', columnId: '2', title: 'Star Wars', isFavorite: false },
+    { id: '5', columnId: '3', title: 'The Witcher', isFavorite: false },
+    { id: '6', columnId: '3', title: 'Skyrim', isFavorite: false },
+    { id: '7', columnId: '4', title: 'Daylight', isFavorite: false },
+    { id: '8', columnId: '4', title: 'Bad Apple', isFavorite: false },
   ],
 
   searchString: '',
