@@ -1,0 +1,13 @@
+@import '../../styles/settings.scss';
+
+.columnForm {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  padding: 10px;
+}
+
+.label {
+  margin: 0 5px;
+}
