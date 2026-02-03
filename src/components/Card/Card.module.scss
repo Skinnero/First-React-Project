@@ -12,10 +12,20 @@
   font-weight: bold;
 }
 
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
 .favoriteColor {
   color: gold;
 }
 
-.button {
+.addButton:hover {
   cursor: pointer;
+}
+
+.removeButton:hover {
+  cursor: pointer;
+  color: $color-warning;
 }

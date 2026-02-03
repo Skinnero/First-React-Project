@@ -2,9 +2,10 @@ import styles from './List.module.scss';
 import Column from "../Column/Column";
 import ColumnForm from "../ColumnForm/ColumnForm";
 import {useSelector} from 'react-redux';
-import {getAllColumnsByList, getListById} from "../../redux/store";
+import {getListById} from "../../redux/listsRedux";
 import {Navigate, useParams} from "react-router-dom";
 import SearchForm from "../SearchForm/SearchForm";
+import {getAllColumnsByList} from "../../redux/columnsRedux";
 
 const List = () => {
 

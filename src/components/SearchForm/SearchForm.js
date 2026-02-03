@@ -3,7 +3,7 @@ import TextInput from "../TextInput/TextInput";
 import Button from "../Buttton/Button";
 import {useDispatch} from "react-redux";
 import {useEffect, useState} from "react";
-import {updateSearchString} from "../../redux/store";
+import {updateSearchString} from "../../redux/searchStringsRedux";
 
 const SearchForm = () => {
 
@@ -13,12 +13,12 @@ const SearchForm = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    dispatch(updateSearchString({searchString}));
+    dispatch(updateSearchString(searchString));
   }
 
   useEffect(() => {
     return () => {
-      dispatch(updateSearchString({searchString: ''}));
+      dispatch(updateSearchString(''));
     };
   }, [dispatch]);
 
